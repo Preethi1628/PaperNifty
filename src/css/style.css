@@ -394,10 +394,44 @@ li {
 }
 .overlay-text{
 	background-color:white;
-	padding: 20px 0 20px 25px;
+	padding: 20px 10px 20px 25px;
 	position: absolute;
 	top:18%;
 	left: 45%;
+	text-align: justify;
+  }
+  @media (max-width: 870px) {
+	/* Adjust image size for smaller screens */
+	.descpapernifty img {
+	  max-width: 80%;
+	  height: auto;
+	}
+	.overlay-text{
+		top:85%;
+		left: 10%;
+	  }
+	  .about{
+		padding-bottom: 200px;
+	  }
+  }
+
+  @media (max-width: 630px) {
+	/* Adjust image size for smaller screens */
+	.descpapernifty img {
+	  max-width: 100%;
+	  height: auto;
+	}
+	.about p {
+		font-size: 10.2px;
+	}
+	.overlay-text{
+		padding: 6px 2px 2px 6px;
+		top:85%;
+		left: 10%;
+	  }
+	  .about{
+		padding-bottom: 130px;
+	  }
   }
 /*Plans*/
 

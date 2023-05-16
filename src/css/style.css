@@ -275,7 +275,7 @@ li {
 	white-space: nowrap;
 	background: linear-gradient(-99.57deg, #ffd900, #dc0916, #f41fd6 100%, #b200f898 0);
 	font-weight: bold;
-	font-size: 50px;  
+	font-size: 45px;  
 	width: 430px;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -484,6 +484,7 @@ margin-bottom: 20px;
     background: #ff3333;
     display: block;
     margin-right: 1rem;
+	padding: 4px;
 }
 
 /*Footer*/

@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Titillium+Web&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <!--==================== SWIPER CSS ====================-->
   <link href="src/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,14 +51,11 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-       
-
-        <h2 style="text-align: center;"><b>TERMS OF SERVICES</b></h2>
-
-
+    <section id="textContent" class="textContent">
+      <div class="container section-headline">
+        <div class="text-center">
+          <h3>Terms and Condtions</h3>
+        </div>
 <p>Last updated: 2022-10-01</p>
 <p>1. <b>Introduction</b></p>
 <p>Welcome to <b>SP Digitals</b> (“Company”, “we”, “our”, “us”)!</p>
@@ -164,111 +161,69 @@
 
   <!--==================== FOOTER ====================-->
   <footer class="footer" id="contact">
-    <div class="container-fluid" style="background-color: #1a1a1a;">
-      <div class="row" style="padding: 30px;">
-        <div class="col-lg-2 col-md-4 col-sm-auto footer-col">
-          <div class="footer-col-line">
-            <h4>
-              Quick Links
-            </h4>
-          </div>
+    <div class="container-fluid">
+      <div class="newsletter">
+        <div class="content">
+          <form class="subscription" action="src/contact.php" method="post" role="form" class="php-email-form">
+            <input class="add-email" type="email" placeholder="Enter your email/mobile number">
+            <button class="submit-email" type="button">
+              <span class="before-submit">Send</span>
+              <span class="after-submit">Thanks for reaching us!</span>
+             </button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="footer-col">
+          <h4>Quick Links</h4>
           <ul>
             <li>
-              <a href="#about">About us</a>
+              <a href="index.html#about">About us</a>
             </li>
             <li>
-              <a href="terms-of-service.html">Terms and Condition</a>
+              <a href="terms-of-service.html">Terms and Conditions</a>
             </li>
             <li>
               <a href="privacy-policy.html">Privacy Policy</a>
             </li>
             <li>
-              <a href="Refund-policy.html">Refund & cancellation policy</a>
-            </li>
-            <li>
-              <a href="#">FAQs</a>
+              <a href="Refund-policy.html">Refund & Cancellation Policy</a>
             </li>
           </ul>
         </div>
-        <div class="col-lg-2 col-md-4 col-sm-auto footer-col">
-          <div class="footer-col-line">
-            <h4>
-              Products
-            </h4>
-          </div>
+        <div class="footer-col">
+          <h4>Products</h4>
           <ul>
             <li>
-              <a href="#">Paper Nifty</a>
+              <a href="https://app.papernifty.com/"  target=”_blank” rel="noreferrer noopener">Paper Nifty</a>
             </li>
             <li>
-              <a href="#">Oi Guru</a>
+              <a href="https://oiguru.papernifty.com/"  target=”_blank” rel="noreferrer noopener">Oi Guru</a>
             </li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-auto footer-col">
-          <div class="footer-col-line">
-            <h4>
-              Contact Us
-            </h4>
-          </div>
-          <div>
-            <ul>
-              <li>
-                <i class="icofont-envelope"> care@papernifty.com</i>
-              </li>
-              <li><i class="icofont-phone"> +91 9487515824</i>
-            </ul>
-            </li>
-
-          </div>
+        <div class="footer-col">
+          <h4>For Queries</h4>
+          <ul>
+            <li><a href="tel:+919487515824">+91 9487515824</a></li>
+            <li><a href="mailto:care@papernifty.com">care@papernifty.com</a></li>
+          </ul>
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-auto footer-col"
-          style="visibility: visible; animation-name: fadeInRight;">
-          <div class="footer-col-line">
-            <h4>
-              Drop Message
-            </h4>
-          </div>
-          <div class="form contact-form">
-            <form action="src/contact.php" method="post" role="form" class="php-email-form">
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" id="name" placeholder="NAME" required>
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" id="email" placeholder="EMAIL" required>
-                  </div>
-                  <div class="app-form-group message">
-                    <input class="app-form-control" id="message" placeholder="MESSAGE">
-                  </div>
-                  <div class="app-form-group buttons">
-                    <button class="app-form-button">CANCEL</button>
-                    <button class="app-form-button">SEND</button>
-                  </div>
-                </div>
-              </div>
-            </form>
+        <div class="footer-col">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://instagram.com/_papernifty?igshid=NTc4MTIwNjQ2YQ=="  target=”_blank” rel="noreferrer noopener"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/papernifty369"  target=”_blank” rel="noreferrer noopener"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
       </div>
     </div>
-    <div class="container-fluid bg-white">
-      <div class="row">
-        <div class="col-lg-10 col-md-8 col-sm-8 credits">
-          <p>&copy; A product by <span><a href="#">SP Digitals</a></span>. All Rights Reserved</p>
-        </div>
-        <div class="col-lg-2 col-md-4 col-sm-4 social-test">
-          <ul class="social">
-            <li><a href="https://www.linkedin.com/in/papernifty369"  target=”_blank” rel="noreferrer noopener"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-            <li><a href="https://instagram.com/_papernifty?igshid=NTc4MTIwNjQ2YQ=="  target=”_blank” rel="noreferrer noopener"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-            <li><a href=""  target=”_blank” rel="noreferrer noopener"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-
-          </ul>
-        </div>
+    <div class="text-center credits">
+      <p>&copy; A product by <span><a href="#">SP Digitals</a></span>. All Rights Reserved</p>
       </div>
-    </div>
   </footer>
+
 
   <!--==================== SCROLL TOP ====================-->
 
